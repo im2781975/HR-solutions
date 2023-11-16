@@ -36,7 +36,6 @@ int main()
             a[i+1]=a[i];
             a[i]=tmp;
         }
-        cout<<a[i]<<"\n";
     }
     cout << a[n-2] << " " << a[n-1] ;
     return 0;
